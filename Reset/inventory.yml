@@ -4,7 +4,7 @@ all:
     CVP_cluster:
       vars:
           ansible_user: arista
-          ansible_password: PASSWORD-GOES-HERE
+          ansible_password: aristabwyu
           ansible_connection: httpapi
           ansible_httpapi_use_ssl: True
           ansible_httpapi_validate_certs: False
@@ -13,3 +13,4 @@ all:
       hosts: 
         cvp1:
           ansible_host: 192.168.0.5
+          # Comment
